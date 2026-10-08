@@ -1,0 +1,35 @@
+:root {
+  font-family: 'Manrope', 'Avenir Next', sans-serif;
+  color: #252622;
+  background: #f3f1eb;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-optical-sizing: auto;
+  --ink: #252622;
+  --charcoal: #20221f;
+  --paper: #f3f1eb;
+  --white: #faf9f5;
+  --muted: #77786f;
+  --line: rgba(37, 38, 34, 0.2);
+  --line-light: rgba(250, 249, 245, 0.24);
+  --bronze: #a9825c;
+  --serif: 'Cormorant Garamond', 'Iowan Old Style', Georgia, serif;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 96px; }
+body { margin: 0; min-width: 0; font-size: 16px; line-height: 1.6; }
+body, button, input, select, textarea { font-family: 'Manrope', 'Avenir Next', sans-serif; }
+button, input, select, textarea { font-size: inherit; }
+button, a { -webkit-tap-highlight-color: transparent; }
+a { color: inherit; }
+img { display: block; max-width: 100%; }
+::selection { color: var(--white); background: var(--bronze); }
+:focus-visible { outline: 2px solid var(--bronze); outline-offset: 4px; }
+#root { min-height: 100vh; overflow: clip; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; }
+}
