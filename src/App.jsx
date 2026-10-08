@@ -3,7 +3,7 @@ import './App.css'
 
 const currentYear = new Date().getFullYear()
 const enquiryEmail = 'sribanashankariconstruct@gmail.com'
-const contactNumbers = ['+919845729629', '+9174411647826', '+917022717365']
+const contactNumbers = ['+919845729629', '+917411647826', '+917022717565']
 const mapQuery = 'AGS Layout, Bengaluru, Karnataka 560061'
 
 const imageSources = {
